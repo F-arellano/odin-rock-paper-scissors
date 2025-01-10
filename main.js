@@ -6,3 +6,7 @@ function getComputerChoice() {
     if (random_value < 2/3) return "paper";
     return "scissors";
 }
+
+function getHumanChoice() {
+    return prompt("rock, paper or scissors?");
+}
