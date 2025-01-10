@@ -1,4 +1,6 @@
-console.log("hello Odin Project")
+console.log("hello Odin Project");
+let humanScore = 0;
+let computerScore = 0;
 
 function getComputerChoice() {
     const random_value = Math.random();
@@ -10,3 +12,5 @@ function getComputerChoice() {
 function getHumanChoice() {
     return prompt("rock, paper or scissors?");
 }
+
+
